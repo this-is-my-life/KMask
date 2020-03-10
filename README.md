@@ -1,2 +1,2 @@
 # KMask
-Korean Mask Info API Wapper
+Korean Mask Info
