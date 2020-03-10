@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="refresh" content="0; url=/create">
 <meta name="theme-color" content="#C1F7FF">
 <meta name="og:site_name" content="흔한 중학생이 빡쳐서 만든">
 <meta property="og:title" content="전국 마스크 데이터 맵">
@@ -25,9 +24,16 @@
       width: 100%;
       height: 100%;
     }
+
+    .hov {
+      position: absolute;
+      z-index: 100;
+      padding: 5px;
+    }
   </style>
 </head>
 <body>
+  <div class="hov">문의: pmhstudio.pmh@gmail.com(TriNet / PMH#7086)<br />기여: https://github.com/PMHStudio/kmask</div>
   <div id="map"></div>  
   <script>
     const markers = []
