@@ -49,9 +49,8 @@
     var zoomControl = new kakao.maps.ZoomControl();
     map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
 
-    kakao.maps.event.addListener(map, 'dragend', ref);
+    kakao.maps.event.addListener(map, 'drag', ref);
     kakao.maps.event.addListener(map, 'zoom_changed', ref);
-    kakao.maps.event.addListener(map, 'dragend', ref);
 
     function clearMark () {
       markers.forEach((m) => {
